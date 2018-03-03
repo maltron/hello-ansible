@@ -1,0 +1,8 @@
+---
+- name: HelloWorld
+  hosts: localhost
+  connection: local
+  gather_facts: False
+  tasks:
+     - name: Just say HelloWorld
+       debug: msg="Hello World"
